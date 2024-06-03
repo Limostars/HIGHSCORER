@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Additional Custom Styles */
+
+        /* Style for the header */
+        .logo {
+            font-size: 1.5rem; /* Adjust size as needed */
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff; /* Color of the logo */
+            /* You can add additional styling like text-shadow, etc. */
+        }
+
+        /* Style for navigation links */
+        nav a {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #2c5282;
+        }
+
+        /* Style for section headings */
+        section h2 {
+            color: #2c5282;
+        }
+
+        /* Style for footer */
+        footer {
+            background-color: #2c5282;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        /* Style for footer text */
+        footer p {
+            font-size: 0.8rem;
+        }
+
+        /* Style for hamburger icon */
+        .menu-toggle {
+            display: none;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links a {
+            margin-right: 1rem;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+         /* Add margin to the right */
+    }
+    .menu-toggle {
+        
+        margin-right: 40px; /* Add margin to the right */
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    
+
+    .logo-container {
+        margin-left: 20px; /* Adjust the left margin as needed */
+    }
+
+    .nav-links.show {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        background-color: #2c5282;
+        padding: 1rem;
+        border-radius: 0 0.5rem 0.5rem 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .nav-links.show a {
+        margin-right: 10px; /* Adjust the right margin as needed */
+        margin-bottom: 0.5rem;
+    }
+
+    .social-media-icons {
+        margin-right: 20px; /* Adjust the margin as needed */
+    }
+}
+
+
+
+/* Zoom effect on hover */
+.logo-container:hover .logo-img {
+    transform: scale(1.2); /* Adjust the zoom factor as needed */
+}
+        
+/* Add this to your existing styles */
+
+/* Style for logo name */
+
+.logo-name{
+    /* Adjust the margin as needed */
+    font-size: 1.5rem;
+   
+}
+
+.hor{
+  display: flex;
+  justify-content: space-between;
+
+}
+</style>
+
+
+    <!-- Wrap your website content inside a container -->
+   
+
+
+   
+</head>
+
+<body class="bg-gray-100">
+
+    <body class="bg-gray-100">
+
+        <body class="bg-gray-100">
+
+            <nav class="bg-gray-800 text-white py-4">
+                <div class="container mx-auto flex justify-between items-center">
+                    <!-- Add your picture here as the logo -->
+                    <div class="logo-container p-2">
+                        <span class="logo-name">HIGH SCORER</span>
+                    
+                    </div>
+                    <!-- End of picture -->
+                    <div class="menu-toggle text-gray-400 hover:text-white focus:outline-none md:hidden">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="nav-links hidden md:flex">
+                        <a href="index.html" class="hover:text-gray-300">Home</a>
+                        <a href="project.html" class="hover:text-gray-300">Projects</a>
+                        <a href="contact.html" class="hover:text-gray-300">Resume</a>
+                    </div>
+                </div>
+            </nav>
+            
+            
+            
+        
+            <!-- Rest of your HTML content -->
+        
+    
+        <!-- Rest of your HTML content -->
+    
+
+    <div class="container mx-auto mt-8 p-4">
+
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-700">I am a civil engineer and an academic writer with exceptional writing skills which allows me to convey complex engineering concepts with clarity and precision. A proficient academic writer who showcases expertise not only in civil engineering but also extensive reserch in any field such as essays.</p>
+        </section>
+
+
+
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4"><a href="project.html">Projects</a></h2>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-lg font-bold mb-2">Text Analysis Tool</h3>
+                <p class="text-gray-700">This is very useful for those whos want to compute variables of text in text analysis Tecnologeis used: FlaskAPI, nltk, SentimentIntensityAnalyzeretc. </p>
+                <a href="https://github.com/MohdAbbas19/Hotel_Booking_Data_Analysis-_Project/blob/main/Hotel_Booking_Data_Analysis%20_Project.ipynb" class="text-blue-500 hover:underline">View Repositry</a>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-lg font-bold mb-2">Hottel Booking Analysis</h3>
+                <p class="text-gray-700">here I follow some instractions and create a </p>
+                <a href="https://github.com/MohdAbbas19/Hotel_Booking_Data_Analysis-_Project/blob/main/Hotel_Booking_Data_Analysis%20_Project.ipynb" class="text-blue-500 hover:underline">View Repositry</a>
+
+            </div>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-xl font-bold mb-4">Education</h2>
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-lg font-bold mb-2">Bachelor's Degree in Civil Engineering</h3>
+                <p class="text-gray-700">Dedan Kimathi University</p>
+            </div>
+        </section>
+
+        <div class="hor">
+            <section class="mb-8">
+                <h2 class="text-xl font-bold mb-4">Skills (Civil Engineering)</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Computer Aided Design: Archcad, Autocad</li>
+                    <li>Structural Design Analysis : Concrete , Steel , Timber</li>
+                    <li>Road Design: Flexible , Rigid</li>
+                    <li>Surveying And Mapping</li>
+                    <li>Theory Of Structures & Analysis: Truss , Beams , Frame</li>
+                    <li>Civil Engineering Material Testing: Labwork Analysis</li>
+                    <li>Soil Analysis & Geotechnical Engineering</li>
+                    <li>Storm Water Management & Drainage Design</li>
+                    <li>Cost Estimation & Analysis: Bill Of Quantities</li>
+                </ul>
+            </section>
+
+            <section class="mb-8">
+                <h2 class="text-xl font-bold mb-4">(Others)</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Psychology & Sociology</li>
+                    <li>Maths</li>
+                    <li>Trigonometry & Statistics & Algebra</li>
+                    <li>Surveying And Mapping</li>
+                    <li>Online Assignments & Exams</li>
+                    <li>Portfolios & Dissertations</li>
+                    <li> Calculus & Economics</li>
+                    
+                </ul>
+            </section>
+
+
+
+        </div>
+
+        
+
+    </div>
+
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="container mx-auto">
+            <h2 class="text-xl font-bold mb-4">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex flex-col justify-center items-center">
+                    <h3 class="text-lg font-semibold mb-2">
+                        <a href="mailto:toselfhelp254@gmail.com" class="mx-2 text-gray-300 hover:text-white">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                    </h3>
+                    <a href="mailto:toselfhelp254@gmail.com" class="text-blue-300 hover:underline">toselfhelp254@gmail.com</a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <h3 class="text-lg font-semibold mb-2">
+                        <a href="tel:+254757005712" class="mx-2 text-gray-300 hover:text-white">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </h3>
+                    <a href="tel:+254757005712" class="text-blue-300 hover:underline">+254757005712</a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    
+                    <div class="flex">
+                        <a href="https://www.instagram.com/hethe_r1/" target="_blank"  class="text-blue-500 hover:underline">
+                            <i class="fab fa-instagram mr-2"></i> <!-- Add mr-2 for right margin -->
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=+254757005712&text=Hello%2C%20World!" target="_blank" class="text-blue-500 hover:underline">
+                            <i class="fab fa-whatsapp mr-2"></i> <!-- Add mr-2 for right margin -->
+                        </a>
+                        <a href="https://www.linkedin.com/in/high-scorer-2b7b42227?trk=contact-info"  target="_blank" class="text-blue-500 hover:underline">
+                            <i class="fab fa-linkedin mr-2"></i> <!-- Add mr-2 for right margin -->
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61556297820699" target="_blank" class="text-blue-500 hover:underline">
+                            <i class="fab fa-facebook mr-2"></i> <!-- Add mr-2 for right margin -->
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-4">&copy; 2024 HIGH SCORER. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>
+
